@@ -19,11 +19,6 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./gts_to_predict/30.jpeg "Traffic Sign 1"
-[image2]: ./gts_to_predict/60.jpeg"Traffic Sign 2"
-[image3]: ./gts_to_predict/c.jpeg "Traffic Sign 3"
-[image4]: ./gts_to_predict/stop.jpeg "Traffic Sign 4"
-[image5]: ./gts_to_predict/tr.jpg "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
