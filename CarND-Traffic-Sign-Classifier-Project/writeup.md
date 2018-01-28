@@ -149,10 +149,15 @@ Here are five German traffic signs that I found on the web:
 ![Traffic sign 5](./gts_to_predict/tr.jpg?raw=true "Turn right ahead")
 
 The first image might be difficult to classify because ...
+
 Speed limit (30km/h) -  classifying correctly -   more data to train.
+
 Speed limit (60km/h) - classigying wrong - less data to train.
+
 Pedestrians - classigying wrong - less data to train.
+
 Stop - classigying wrong - less data to train.
+
 Turn right ahead - classifying correctly -   more data to train.
 
 
@@ -175,18 +180,17 @@ The model was able to correctly guess 2 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| .95       			| Speed limit (30km/h)   									| 
+| .04 				| General caution 										|
+| .00					| Wild animals crossing								|
+| .00	      			| Traffic signals			 				|
+| .00				    | Speed limit (20km/h)					|
 
 
-For the second image ... 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
