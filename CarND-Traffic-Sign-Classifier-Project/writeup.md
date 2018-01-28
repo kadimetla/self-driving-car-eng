@@ -17,8 +17,11 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
-[//]: # (Image References)
-
+![Traffic sign 1](./gts_to_predict/30.jpeg?raw=true "Speed limit (30km/h)")
+![Traffic sign 2](./gts_to_predict/60.jpeg?raw=true "Speed limit (60km/h)")
+![Traffic sign 3](./gts_to_predict/c.jpeg?raw=true "Pedestrians")
+![Traffic sign 4](./gts_to_predict/stop.jpeg?raw=true "Stop")
+![Traffic sign 5](./gts_to_predict/tr.jpg?raw=true "Turn right ahead")
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
