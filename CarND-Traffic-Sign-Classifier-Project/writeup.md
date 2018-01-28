@@ -63,7 +63,8 @@ I am not able to predict the traffic signs downloaded from web.
 
 To add more data to the the data set, I plan to use following techniques because ... 
 
-##Yet to work on this
+
+Yet to work on this
 
 Here is an example of an original image and an augmented image:
 
@@ -98,8 +99,11 @@ My final model consisted of the following layers:
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
 To train the model
+
 Optimizer - AdamOptimizer
+
 Batch size - 128
+
 EPOCHS - 10
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
@@ -111,15 +115,19 @@ My final model results were:
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
+
 Modified Lenet-5 architecture to train.
 
 * What were some problems with the initial architecture?
+
 Not able to predict all the traffic signs downloaded from web.
 
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
+
 Architecture was not adjusted due to time constraints. Plan do it.
 
 * Which parameters were tuned? How were they adjusted and why?
+
 None
 
 * What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
@@ -127,12 +135,15 @@ None
 
 If a well known architecture was chosen:
 * What architecture was chosen?
+
 Letnet-5
 
 * Why did you believe it would be relevant to the traffic sign application?
+
 Convolution neural network is the right architecture, needs data augmentation and other hyper parameter tuning to predict traiffc signs
 
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
+
 I see accuracy on test data 0.890
  
 
